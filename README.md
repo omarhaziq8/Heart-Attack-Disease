@@ -69,7 +69,7 @@ output - Target variable
  
  🟠MinMaxScaler+RF Classifier has the best accuracy model for training and deployment which is 73%, fine tuner used: 76%
  
- 🟠Streamlit is used for model deployment, to demonstrate prediction of heart attack
+ 🟠Streamlit is used for model deployment, to demonstrate prediction of heart attack: Heart.app.py
 
 
 **Dataset** :
