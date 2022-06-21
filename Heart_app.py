@@ -48,13 +48,13 @@ fig.suptitle('Distribution of data')
 axes[0,0].set_title('Distribution of age')
 sns.distplot(df['age'],ax=axes[0,0])
 
-axes[1,0].set_title('Distribution of thalachh')
+axes[1,0].set_title('Distribution of maximum heart rate achieved')
 sns.distplot(df['thalachh'],ax=axes[1,0])
 
 axes[0,1].set_title('Distribution of oldpeak')
 sns.distplot(df['oldpeak'],ax=axes[0,1])
 
-axes[1,1].set_title('Distribution of thall')
+axes[1,1].set_title('Distribution of Thalium Stress Test Result')
 sns.countplot(df['thall'],ax=axes[1,1])
 
 st.pyplot(fig)
@@ -68,9 +68,9 @@ with st.form("Patient's info"):
     st.write("Please enter your details and get to know the results :grin:")
     
     age = int(st.number_input('Key in your age'))
-    thalachh = int(st.number_input('Key in your thalachh'))
+    thalachh = int(st.number_input('Key in your maximum heart rate achieved'))
     oldpeak = int(st.number_input('Key in your oldpeak'))
-    thall = int(st.number_input('Key in your thall'))
+    thall = int(st.number_input('Key in your Thalium Stress Test Result'))
     
     # Every form must have a submit button.
     submitted = st.form_submit_button("Submit")
