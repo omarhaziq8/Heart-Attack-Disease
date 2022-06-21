@@ -7,41 +7,30 @@
 # Heart-Attack-Disease Predictor
 **Description** : Trained with patient datasets based on the data dictionary to predict heart attack
 
-**ML Model** : Pipeline of 3 models which are logistic regression,decision tree and random forest
-
 **Preprocessing step** : Train split data,gridsearchcv fine tuner
 
-**Objective** : To perform EDA and predict if a person is prone to a heart attack or not
+**ML Model** : Pipeline of 3 models which are logistic regression,decision tree and random forest
+
+**Objectives** : To perform EDA and predict if a person is prone to a heart attack or not
                 To achieve model with validation accuracy of more than 70%
+                
 
 **Data Dictionary:**
 
-age - Age of the patient
-
-sex - Sex of the patient
-
-cp - Chest pain type ~ 0 = Typical Angina, 1 = Atypical Angina, 2 = Non-anginal Pain, 3 = Asymptomatic
-trtbps - Resting blood pressure (in mm Hg)
-
-chol - Cholestoral in mg/dl fetched via BMI sensor
-
-fbs - (fasting blood sugar > 120 mg/dl) ~ 1 = True, 0 = False
-
-restecg - Resting electrocardiographic results ~ 0 = Normal, 1 = ST-T wave normality, 2 = Left ventricular hypertrophy
-
-thalachh - Maximum heart rate achieved
-
-oldpeak - Previous peak
-
-slp - Slope
-
-caa - Number of major vessels
-
-thall - Thalium Stress Test result ~ (0,3)
-
-exng - Exercise induced angina ~ 1 = Yes, 0 = No
-
-output - Target variable
+1) age - Age of the patient
+2) sex - Sex of the patient
+3) cp - Chest pain type ~ 0 = Typical Angina, 1 = Atypical Angina, 2 = Non-anginal Pain, 3 = Asymptomatic
+4) trtbps - Resting blood pressure (in mm Hg)
+5) chol - Cholestoral in mg/dl fetched via BMI sensor
+6) fbs - (fasting blood sugar > 120 mg/dl) ~ 1 = True, 0 = False
+7) restecg - Resting electrocardiographic results ~ 0 = Normal, 1 = ST-T wave normality, 2 = Left ventricular hypertrophy
+8) thalachh - Maximum heart rate achieved
+9) oldpeak - Previous peak
+10) slp - Slope
+11) caa - Number of major vessels
+12) thall - Thalium Stress Test result ~ (0,3)
+13) exng - Exercise induced angina ~ 1 = Yes, 0 = No
+14) output - Target variable
 
 ### Exploratory Data Analysis (EDA)
 1) Data Loading
@@ -78,6 +67,9 @@ output - Target variable
 
 [Datasets](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
 
+**Credits to:**
+
+[Source](http://archive.ics.uci.edu/ml/datasets/Heart+Disease)
 
 **Enjoy Coding!** 🚀
 
