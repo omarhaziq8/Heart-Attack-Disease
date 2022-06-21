@@ -272,7 +272,14 @@ print(accuracy_score(y_true,y_pred))
 # f1-score 0.76
 # accuracy 0.76 
 
-
+# Conclusion
+# For model deployment, it works well and predicted for the test case 1 and 2
+# I snipped the prediction model deployment in jpg format for evaluation
+# As the model goes on to use for predictions, can say the model might not works 
+# and to predict well for certain patient since the dataset for training is small
+# the machine requires big data, more unique, in order to learn and predicts well in the future
+# Suggested to use other ML method such as SVC,KNN Classifier for higher accuracy
+# Deep Learning can be utilise into the model development for better predictions
 
 
 
