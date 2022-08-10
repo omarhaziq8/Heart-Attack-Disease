@@ -12,9 +12,14 @@
 
 **ML Model** : Pipeline of 3 models which are logistic regression,decision tree and random forest
 
-**Objectives** : To perform EDA and predict if a person is prone to a heart attack or not
-                To achieve model with validation accuracy of more than 70%
+**Objectives** : 
+
+To perform EDA and predict if a person is prone to a heart attack or not
+
+To achieve model with validation accuracy of more than 70%
                 
+
+
 
 **Data Dictionary:**
 
